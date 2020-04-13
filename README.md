@@ -10,7 +10,7 @@ Required libraries are the following and can all be installed via pip.
     selenium
    You will also need a webdriver. Chrome webdriver can be installed here. For windows place the .exe file in the same folder as you are running `navigate.py` from.  Remmember to install same version of chrome webdriver as the one on your machine. 
    [See link for chrome webdriver](https://chromedriver.chromium.org/downloads)
-You can also use other webdrivers but youl need to change `navigate.py` to `driver = webdriver.xxx()`. 
+You can also use other webdrivers but you will need to change `navigate.py` to `driver = webdriver.xxx()`. 
 
 ### Running navigate
 To run navigate use
@@ -19,7 +19,7 @@ To run navigate use
     navigate.navigate_site(postal_code)
  You can also specify which specific element to start scraping from *This can be useful if it chrashes midwise*. 
 
-navigate_site(postal, sitenumber, pageelem)
+    navigate_site(postal, sitenumber, pageelem)
 *Default will be 1 for sitenumber and 1 for pagelem if not specified*
 
 ### Data collection
