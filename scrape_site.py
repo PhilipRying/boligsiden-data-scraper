@@ -1,12 +1,5 @@
 import time
-import pandas as pd
 import csv
-
-import sqlite3
-from sqlite3 import Error
-
-
-
 
 
 def scrape_page(driver):
