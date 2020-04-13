@@ -1,6 +1,7 @@
 # Boligsiden data scraper
 ## WARNING - THIS LIBRARY IS MEANT FOR EDUCATIONAL PURPOSES ONLY, SCRAPING DATA CAN BE ILLEGAL. 
 
+## Only works for danish postal codes currently
 ### Installation
 Required libraries are the following and can all be installed via pip. 
 
